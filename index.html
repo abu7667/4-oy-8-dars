@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+      * {
+        font-family: "Roboto", sans-serif !important;
+      }
+    </style>
+  </head>
+  <body class="bg-[#121214] text-white">
+    <header class="h-screen flex flex-col">
+      <nav
+        class="flex items-center w-full justify-between max-w-[95%] mx-auto py-5"
+      >
+        <div class="flex items-center gap-7">
+          <a href="#">
+            <img src="./images/IMAGE (1).png" alt="" />
+          </a>
+
+          <ul class="flex items-center gap-5">
+            <li
+              class="text-[#A6A8AD] hover:text-[#0033FF] transition-all hover:scale-105"
+            >
+              <a href="">Sounds</a>
+            </li>
+            <li
+              class="text-[#A6A8AD] hover:text-[#0033FF] transition-all hover:scale-105"
+            >
+              <a href="">Skills</a>
+            </li>
+            <li
+              class="text-[#A6A8AD] hover:text-[#0033FF] transition-all hover:scale-105"
+            >
+              <a href="">Plugins</a>
+            </li>
+            <li
+              class="text-[#A6A8AD] hover:text-[#0033FF] transition-all hover:scale-105"
+            >
+              <a href="">Studio</a>
+            </li>
+            <li
+              class="text-[#A6A8AD] hover:text-[#0033FF] transition-all hover:scale-105"
+            >
+              <a href="">Community</a>
+            </li>
+            <li
+              class="text-[#A6A8AD] hover:text-[#0033FF] transition-all hover:scale-105"
+            >
+              <a href="">Blog</a>
+            </li>
+            <li
+              class="text-[#A6A8AD] hover:text-[#0033FF] transition-all hover:scale-105"
+            >
+              <a href="">Pricing</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <button
+            class="py-2 px-[21px] bg-white text-[#121214] rounded-[32px] hover:bg-[#0033FF] hover:text-white cursor-pointer transition-all">
+            Sign up
+          </button>
+        </div>
+      </nav>
+      <div class="bg-[url('./images/bg.png')] bg-no-repeat bg-cover flex-1">
+        <div class="container max-w-[95%] mx-auto h-full flex flex-col justify-center items-start">
+          <h1 class=" text-7xl max-w-[513px]">Step into the producer’s playground</h1>
+          <p class="text-xl max-w-[412px] pt-[26px] pb-[44px]">
+            Explore the world’s best sample library and an unmatched marketplace
+            of plugins and DAWs.
+          </p>
+          <button class="bg-[#0033FF] py-4 px-8 rounded-lg cursor-pointer hover:bg-transparent hover:text-[#0033FF] border border-transparent hover:border-[#0033FF] transition-all">Try free</button>
+        </div>
+      </div>
+    </header>
+    <main class="container max-w-[95%] mx-auto">
+      <section>
+        <p class="text-[28px] text-center py-[29px]">About Catalog</p>
+        <!-- CARDs -->
+        <div>
+          <!-- CARD-1 -->
+          <div class="flex items-center justify-between">
+            <div>
+              <p class="text-[28px] pl-12 pb-[12px]">A catalog so deep, it’s dangerous.</p>
+              <p class="max-w-[374px] pl-12 pb-[12px]">
+                Expertly created and curated samples in any style imaginable.
+                Start swimming in sound.
+              </p>
+              <button class="bg-[#0033FF] ml-12 py-[5px] px-[20px] rounded-lg hover:bg-transparent hover:text-[#0033FF] border border-transparent hover:border-[#0033FF] cursor-pointer transition-all">Explore Sounds</button>
+            </div>
+            <div class="">
+              <img src="./images/IMAGE (2).png" alt="" />
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between pl-[48px] text-end flex-row-reverse">
+            <div>
+              <p class="text-[28px] pl-12 pb-[12px]">A workflow that actually flows.</p>
+              <p class="max-w-[374px] pl-12 pb-[12px]">
+                Preview samples in your track’s key and tempo, drag and drop sounds into your DAW, and organize your favorite samples, MIDI and presets in one place.
+              </p>
+              <button class="bg-[#0033FF] ml-12 py-[5px] px-[20px] rounded-lg hover:bg-transparent hover:text-[#0033FF] border border-transparent hover:border-[#0033FF] cursor-pointer transition-all">Workflow</button>
+            </div>
+            <div class="">
+              <img src="./images/IMAGE (3).png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="max-w-[95%] m-auto">
+      <div>
+        <div>
+          <div class="bg-[#F8F8F8]">
+          <a href="#">
+            <img src="./images/IMAGE (4).png" alt="">
+          </a>
+          <p class="text-[20px] max-w-[285px] pt-[30px] text-black">
+            I can always find what I’m looking for on Splice, whether it’s the exact sound I want or just a bit of inspiration.
+          </p>
+          <p  class="text-[#767676] text-[14px] pt-4">
+            Andrew Huang
+          </p>
+          </div>  
+        </div>  
+      </div>
+    </footer>
+  </body>
+</html>
